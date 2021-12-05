@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Rubik:wght@300&family=Titillium+Web:wght@200&display=swap');
+.App {
+  text-align: center;
+}
+body{
+  font-family: Titillium Web;
+  color:white;
+  background-color:rgb(88, 88, 88); 
+}
+.books{
+color:white;
+margin:5%;
+}
+.book{
+  padding-top:5%;
+  padding-bottom: 5%;
+  border-radius: 5px;
+  background-color:rgb(35, 35, 48);
+  transition-duration: 350ms;
+}
+.book:hover{
+  background-color:rgb(99, 99, 145)
+}
